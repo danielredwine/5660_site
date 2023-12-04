@@ -2999,6 +2999,7 @@ input, select, textarea {
 		min-height: 22.5em;
 	}
 
+
 		body.is-ie .spotlights > section {
 			min-height: 0;
 		}
@@ -3022,7 +3023,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(20, 20, 20, 0.8);
+				background: rgba(20, 20, 20);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3064,11 +3065,11 @@ input, select, textarea {
 			}
 
 		.spotlights > section:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.05);
+			background-color: rgba(0, 0, 0, 0.0);
 		}
 
 		.spotlights > section:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.1);
+			background-color: rgba(0, 0, 0, 0.0);
 		}
 
 		.spotlights > section.inactive > .image:before,
@@ -3761,14 +3762,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #202020;
+				background: linear-gradient(to right, #202020, #353535)
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #00FA9A);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #00FA9A);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #00FA9A);
-				background-image: linear-gradient(to right, #5e42a6, #00FA9A);
+				background-image: -moz-linear-gradient(to right, #202020, #191970, #4169E1);
+				background-image: -webkit-linear-gradient(to right, #202020, #191970, #4169E1);
+				background-image: -ms-linear-gradient(to right, #202020, #191970, #4169E1);
+				background-image: linear-gradient(to right, #202020, #191970, #4169E1);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3875,9 +3876,10 @@ input, select, textarea {
 	#intro {
 		background-attachment: fixed;
 		background-image: url("images/sbdo.jpg");
-		background-position: top left;
+		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		
 	}
 
 		#intro p {
