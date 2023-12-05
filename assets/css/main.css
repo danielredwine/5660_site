@@ -2984,6 +2984,18 @@ input, select, textarea {
 			}
 
 		}
+		
+/* Increase the size of icons for larger screens */
+.split.style1 ul.icons li a {
+    font-size: 24px; /* Adjust the size for larger screens */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 736px) {
+    .split.style1 ul.icons li a {
+        font-size: 18px; /* Adjust the size for smaller screens */
+    }
+}
 
 /* Spotlights */
 
@@ -3131,6 +3143,28 @@ input, select, textarea {
 			}
 
 		}
+		
+		/* Increase the size of icons for larger screens */
+.split.style1 ul.icons li a {
+    font-size: 36px; /* Adjust the size for larger screens */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 736px) {
+    .split.style1 ul.icons li a {
+        font-size: 36px; /* Adjust the size for smaller screens */
+    }
+}
+
+/* Media query for screens between 736px and 980px */
+@media screen and (max-width: 980px) {
+    /* Center the icons for screens between 736px and 980px */
+    .split.style1 ul.icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 /* Table */
 
